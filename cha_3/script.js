@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // Username validation using switch
     switch (true) {
         case (username.length < 5):
-            alert('Username must be at least 5 characters long.');
+            alert('Username should have at least 5 characters long.');
             valid = false;
             break;
         default:
@@ -16,7 +16,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // Password validation using switch
     switch (true) {
         case (password.length < 8):
-            alert('Password must be at least 8 characters long.');
+            alert('Password should be at least 8 characters long.');
             valid = false;
             break;
         default:
